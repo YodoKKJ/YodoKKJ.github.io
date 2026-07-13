@@ -384,6 +384,14 @@ a { color: inherit; text-decoration: none; }
   color: var(--text-dim);
 }
 
+.social-links a {
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: var(--accent);
+}
+
 /* Footer */
 .footer {
   text-align: center;
